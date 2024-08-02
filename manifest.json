@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Recipe Notetaker",
+  "version": "1.0",
+  "description": "Search for recipes and save your favorites to bookmarks",
+  "permissions": ["bookmarks", "activeTab", "scripting"],
+  "action": {
+    "default_popup": "src/popup.html",
+    "default_icon": {
+      "16": "images/icon.png",
+      "48": "images/icon.png",
+      "128": "images/icon.png"
+    }
+  },
+  "background": {
+    "service_worker": "src/background.js"
+  },
+  "icons": {
+    "16": "images/icon.png",
+    "48": "images/icon.png",
+    "128": "images/icon.png"
+  }
+}

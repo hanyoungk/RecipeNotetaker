@@ -1,0 +1,100 @@
+body {
+    font-family: 'Baskervville SC', serif;
+    width: 400px;
+    padding: 20px;
+    /*background: coral;*/
+}
+
+#title {
+    background: beige;
+    width: 100%;
+}
+
+#searchDiv {
+    /*background: aqua;*/
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    display: flex;
+}
+
+#search {
+    width: 65%;
+    padding: 8px;
+
+    margin-right: 10px;
+}
+
+#searchBtn {
+    /*width: 20%;*/
+    padding: 8px;
+    background: white;
+}
+
+#results {
+    margin-top: 10px;
+}
+
+.result {
+    margin-bottom: 10px;
+}
+
+.result a {
+    text-decoration: none;
+    color: blue;
+
+}
+
+.result button {
+    margin-top: 5px;
+}
+
+.result {
+    background: #FFF;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.result-content {
+    display: flex;
+    align-items: center;
+}
+
+.thumbnail {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.result-text {
+    flex-grow: 1;
+}
+
+.result-text a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.result-text a:hover {
+    text-decoration: underline;
+}
+
+.result-text button {
+    margin-top: 5px;
+    padding: 5px 10px;
+    background: #FFD700; /* Golden color for buttons */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.result-text button:hover {
+    background: #FFC107; /* Darker shade on hover */
+}
